@@ -21,7 +21,18 @@ func Equal[E comparable](s1, s2 []E) bool {
 	return true
 }
 
+func Clone[S ~[]E, E any](s S) S {
+	// Preserve nil in case it matters.
+	if s == nil {
+		return nil
+	}
+	return append(S([]E{}), s...)
+}
+
 func main() {
 	Print("Hello, ", "playground\n")
 	Print(Equal([]string{"1"}, []string{"1"}))
+	Print("\n")
+
+	Print(Clone([]string{"222"}))
 }
