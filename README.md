@@ -12,6 +12,10 @@ Golang面试各种问题
 * [Go 语言圣经（中文版）](https://books.studygolang.com/gopl-zh/)
 * [Go 程序员面试笔试宝典](https://golang.design/go-questions/interface/receiver/)
 
+# istio精彩文章
+
+* [浅析 Istio：服务治理之概念和原理](https://mp.weixin.qq.com/s/72xZqLscVsjLaGH1Yd9Pzw)
+
 # 面试主题
 
 #### chan_demo 管道相关
